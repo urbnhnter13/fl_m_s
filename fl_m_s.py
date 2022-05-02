@@ -93,11 +93,11 @@ def fcalc(inpt):
     
     
     if a[0]==1:
-        print("F,....friends")
+        print("F......friends huh")
     if a[0]==2:
-        print("L,...hmmmmmm")
+        print("L...hmmmmmm hmmmmm")
     if a[0]==3:
-        print("A........")
+        print("A.....not bad")
     if a[0]==4:
         print("M....ohh ohh")
     if a[0]==5:
