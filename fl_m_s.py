@@ -2,8 +2,8 @@ import string
 import time
 #_________________________________++++++++++++++++++++++++++++++++++++++++++++++____________________________________-------------------------------
 def inptcal():
-    x=str(input("ENTER NAME 1"))
-    y=str(input("ENTER NAME 2"))
+    x=str(input("ENTER NAME-1 "))
+    y=str(input("ENTER NAME-2 "))
 
     dm=list(x)
     dm.sort()
@@ -82,10 +82,7 @@ def fcalc(inpt):
             ok=ok+1
             
         a=b    
-        
-        
-       
-        
+
         b=[0,0,0,0,0,0,0]
         s=s-1
         ok=0
