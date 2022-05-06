@@ -1,9 +1,9 @@
-import string
-import time
+
 #_________________________________++++++++++++++++++++++++++++++++++++++++++++++____________________________________-------------------------------
-def inptcal():
-    x=str(input("ENTER NAME-1 "))
-    y=str(input("ENTER NAME-2 "))
+def inptcal(n1,n2):
+    x=n1
+    y=n2
+
 
     dm=list(x)
     dm.sort()
@@ -107,9 +107,14 @@ def fcalc(inpt):
 
 
 #_________________________________++++++++++++++++++++++++++++++++++++++++++++++____________________________________-------------------------------
-passvar=inptcal()
-print("OK........ Lets's See the number\nIt is..........",passvar)
-print("NOW let's see what letter u get")
-fcalc(passvar)
+def messpr(passvar):
+    print("OK........ Lets's See the number\nIt is..........",passvar)
+    print("NOW let's see what letter u get")
+
+
+def printer(x0,y0):
+    passvar=inptcal(x0,y0)
+    messpr(passvar)
+    fcalc(passvar)
 
 
