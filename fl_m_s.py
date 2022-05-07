@@ -111,16 +111,17 @@ def messpr(passvar):
     print("OK........ Lets's See the number\nIt is..........",passvar)
     print("NOW let's see what letter u get")
 
-
+#______________________________________++++++++++++++++++++++++++++++++++++++++++++____________________________________________-----------------------------
 def printer(x0,y0):
     passvar=inptcal(x0,y0)
     messpr(passvar)
     fcalc(passvar)
-
-nmip1=str(input("Enter your name : "))
-nmip2=str(input("Enter their name : "))
-printer(nmip1,nmip2)
-
+#______________________________________________________________________________________________________________
+nmip1=str(input("Enter your name : "))                                                                         #|  
+nmip2=str(input("Enter their name : "))                                                                        #|
+printer(nmip1,nmip2)                                                                                           #|
+                                                                                                               #|
+#______________________________________________________________________________________________________________#|
 
 
 
