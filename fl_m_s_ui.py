@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu May  5 17:45:17 2022
 
-@author: cheth
-"""
 
 import tkinter as tk
 def creator():
